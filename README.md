@@ -1,2 +1,4 @@
-# AtividadesMobile
- Exercicíos que o professor de linguagem mobile, passa para os alunos fazerem
+# Atividades de Linguagem Mobile
+Todos os exercicios feitos por mim, estárão aqui!.
+
+Alteração feita pela site!!!
