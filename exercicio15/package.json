@@ -1,0 +1,15 @@
+{
+  "name": "exercicio15",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ex015.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ex015.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
