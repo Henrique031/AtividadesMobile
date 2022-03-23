@@ -7,7 +7,7 @@ Depois mostre os números em ordem crescente
 Entregar o fluxograma e o código .js
 */
 
-console.log('Progrma que solicite 2 números, para depois mostras em ondem crescente...');
+console.log('Progrma que mostre em ondem crescente...');
 prompt = require('prompt-sync') ();
 let resultado = [ 
     a = prompt('Número 1: '),

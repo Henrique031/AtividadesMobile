@@ -22,3 +22,10 @@ if (humidade > 70) {;
 } else if (humidade < 30) {;
     console.log('O ar está muito seco!');
 };
+
+/*
+"start": "npm run start1 & npm run start2 & npm run start3  ",
+    "start1": "node ex012.js ",
+    "start2": "node ex012-1.js ",
+    "start3": "node ex012-2.js "
+*/
