@@ -1,15 +1,15 @@
 {
-  "name": "aula7teste",
+  "name": "exercicio11",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "ex011.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ex010.js"
+    "start": "node ex011.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "readline-sync": "^1.4.10"
+    "prompt-sync": "^4.2.0"
   }
 }
