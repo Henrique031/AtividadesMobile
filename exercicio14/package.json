@@ -1,0 +1,15 @@
+{
+  "name": "exercicio14",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ex014.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ex014.js && node ex014-1.js && node ex014-2.js && node ex014-3.js && node ex014-4.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
