@@ -13,34 +13,39 @@ Entregar o fluxograma e o código .js
 */
 
 console.log('Programa que mostre números em ordem crescente...')
-//prompt = require('prompt-sync') ()
+prompt = require('prompt-sync') ()
 
  
-let a = 10    //prompt('Digite o primero número: ')  //7
-let b = 1  //prompt('Digite o primero número: ') //4
-let c = 5  //prompt('Digite o primero número: ') //2
+let a = prompt('Digite o primero número: ')  
+let b = prompt('Digite o primero número: ') 
+let c = prompt('Digite o primero número: ') 
 
-if ((a < b) && (a < c)) {
+if ((a < b && a < c) && (b > a && b < c) && (c > a && c > b) ) {
     console.log(a)
-} else if ((a > b) && (a > c)) {
-    console.log(c)
-} else if ((a < b) && (a > c)) {
-    console.log(c)
-}
-
-if ((b > a) && (b < c)) {
     console.log(b)
-} else if ((b > a) && (b > c)) {
+    console.log(c)
+} if ((a > b && a < c) && (b < a && b > c) && (c < a && c < b) ) {
+    console.log(c)
+    console.log(b)
     console.log(a)
-} else if ((b < a) && (b < c)) {
+} if ((a < b && a > c) && (b > a && b > c) && (c < a && c < b) ) {
+    console.log(c)
+    console.log(a)
     console.log(b)
+} if ((a < b && a < c) && (b > a && b > c) && (c > a && c < b) ) {
+    console.log(a)
+    console.log(c)
+    console.log(b)
+} if ((a > b && a > c) && (b < a && b < c) && (c < a && c > b) ) {
+    console.log(b)
+    console.log(c)
+    console.log(a)
+} if ((a > b && a < c) && (b < a && b < c) && (c > a && c > b) ) {
+    console.log(b)
+    console.log(a)
+    console.log(c)
+} if ((a > b && a > c) && (b < a && b > c) && (c < a && c < b) ) {
+    console.log(c)
+    console.log(b)
+    console.log(a)
 }
-//  if ((a < b) && (a < c)) {
-//     console.log(a)
-// } else if ((a > b) && (a > c)) {
-//     console.log(c)
-// } else if ((a < b) && (a > c)) {
-//     console.log(c)
-// }
-
-
