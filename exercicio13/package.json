@@ -5,7 +5,7 @@
   "main": "ex013.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ex013.js"
+    "start": "node ex013-1.js && node ex013-2.js && node ex013-3.js && node ex013-4.js && node ex013-5.js && node ex013-6.js && node ex013-7.js"
   },
   "author": "",
   "license": "ISC",
