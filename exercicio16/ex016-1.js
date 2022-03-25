@@ -12,13 +12,13 @@ Utilize if encadeado para resolver este caso
 Entregar o fluxograma e o código .js
 */
 
-console.log('Programa que mostre números em ordem crescente...');
-prompt = require('prompt-sync') ();
+console.log('Programa que mostre números em ordem crescente...')
+prompt = require('prompt-sync') ()
 
  
-let a = prompt('Digite o primero número: ');  
-let b = prompt('Digite o primero número: '); 
-let c = prompt('Digite o primero número: '); 
+let a = prompt('Digite o primero número: ')  
+let b = prompt('Digite o primero número: ') 
+let c = prompt('Digite o primero número: ') 
 
 if ((a < b && a < c) && (b > a && b < c) && (c > a && c > b) ) {
     console.log(a)
@@ -48,4 +48,4 @@ if ((a < b && a < c) && (b > a && b < c) && (c > a && c > b) ) {
     console.log(c)
     console.log(b)
     console.log(a)
-};
+}
