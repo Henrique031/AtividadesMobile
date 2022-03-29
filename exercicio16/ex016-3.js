@@ -1,51 +1,17 @@
-/*
-Ordenação
+console.log('Progrma que mostre números em ordem crescente...');
+prompt = require('prompt-sync') ();
+
+// let res = [
+//     n1 = prompt('Digite o primero número: '), 
+//     n2 = prompt('Digite o segundo número: '), 
+//     n3 = prompt('Digite o terceiro número: '),
+// ];
 
 
-Faça um programa que solicite que o usuário digite 3 números e guarde-os nas variáveis a, b e c 
-Depois mostre os números em ordem crescente
+// var n1 = ""
+// var n2 = ""
+// var n3 = ""
 
+var res =  [prompt("Escreva aqui") + prompt("Escreva aqui") + prompt("Escreva aqui")]
 
-Utilize if encadeado para resolver este caso
-
-
-Entregar o fluxograma e o código .js
-*/
-
-console.log('Programa que mostre números em ordem crescente...')
-prompt = require('prompt-sync') ()
-
- 
-let a = prompt('Digite o primero número: ')  
-let b = prompt('Digite o primero número: ') 
-let c = prompt('Digite o primero número: ') 
-
-if ((a < b && a < c) && (b > a && b < c) && (c > a && c > b) ) {
-    console.log(a)
-    console.log(b)
-    console.log(c)
-} if ((a > b && a < c) && (b < a && b > c) && (c < a && c < b) ) {
-    console.log(c)
-    console.log(b)
-    console.log(a)
-} if ((a < b && a > c) && (b > a && b > c) && (c < a && c < b) ) {
-    console.log(c)
-    console.log(a)
-    console.log(b)
-} if ((a < b && a < c) && (b > a && b > c) && (c > a && c < b) ) {
-    console.log(a)
-    console.log(c)
-    console.log(b)
-} if ((a > b && a > c) && (b < a && b < c) && (c < a && c > b) ) {
-    console.log(b)
-    console.log(c)
-    console.log(a)
-} if ((a > b && a < c) && (b < a && b < c) && (c > a && c > b) ) {
-    console.log(b)
-    console.log(a)
-    console.log(c)
-} if ((a > b && a > c) && (b < a && b > c) && (c < a && c < b) ) {
-    console.log(c)
-    console.log(b)
-    console.log(a)
-}
+console.log(`${res.sort()}`);

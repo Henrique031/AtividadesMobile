@@ -11,13 +11,13 @@ console.log('Programa simulador do jogo 21...');
 prompt = require('prompt-sync') ();
 
 console.log(`Digite seu deck de cartas: `);
-var carta1 = prompt('Carta 1 => ');
+let carta1 = prompt('Carta 1 => ');
 carta1 = Number(carta1);
 //carta1 = parseInt(carta1);
-var carta2 = prompt('Carta 2 => ');
+let carta2 = prompt('Carta 2 => ');
 carta2 = Number(carta2)
 //carta2 = parseInt(carta2);
-var carta3 = prompt('Carta 3 => ');
+let carta3 = prompt('Carta 3 => ');
 carta3 = Number(carta3);
 //carta3 = parseInt(carta3);
 
