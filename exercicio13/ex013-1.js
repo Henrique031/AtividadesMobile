@@ -37,4 +37,4 @@ if (temperatura < -10) {
     console.log('Está muito calor!')
 } else if (temperatura >= 35) {
     console.log('Está insuportavelmente quente!')
-}
+};

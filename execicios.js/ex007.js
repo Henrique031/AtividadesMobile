@@ -10,12 +10,17 @@ let humidade = 25;
 let tempoSeco = (humidade < 30)
 */
 
-let bateriaCel = 17
-let carregarBateria = (bateriaCel <=15) //false
+let bateriaCel = 17;
+let carregarBateria = (bateriaCel <=15); //false
 
-let idade = 21
-let aluno = (idade > 18)//true
+let idade = 21;
+let aluno = (idade > 18);//true
 
+let hora = 13.5;
+let tarde = (hora >= 12); //true
+
+let clima = "chuva";
+let resClima = (clima == "sol"); //false
 
 
 //console.log(idade)

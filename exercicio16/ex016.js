@@ -1,51 +1,51 @@
 /*
-Ordenação
+Ordenn1ção
 
 
-Faça um programa que solicite que o usuário digite 3 números e guarde-os nas variáveis a, b e c 
+Fn1çn1 um progrn1mn1 que solicite que o usuário digite 3 números e gun1rde-os nn1s vn1riáveis n1, n2 e n3 
 Depois mostre os números em ordem crescente
 
 
-Utilize if encadeado para resolver este caso
+Utilize if encn1den1do pn1rn1 resolver este cn1so
 
 
-Entregar o fluxograma e o código .js
+Entregn1r o fluxogrn1mn1 e o código .js
 */
 
-console.log('Programa que mostre números em ordem crescente...');
+console.log('Progrn1mn1 que mostre números em ordem crescente...');
 prompt = require('prompt-sync') ();
 
  
-let a = prompt('Digite o primero número: ');  
-let b = prompt('Digite o primero número: '); 
-let c = prompt('Digite o primero número: '); 
+let n1 = prompt('Digite o primero número: ');  
+let n2 = prompt('Digite o segundo número: '); 
+let n3 = prompt('Digite o terceiro número: '); 
 
-if ((a < b && a < c) && (b > a && b < c) && (c > a && c > b) ) {
-    console.log(a)
-    console.log(b)
-    console.log(c)
-} if ((a > b && a < c) && (b < a && b > c) && (c < a && c < b) ) {
-    console.log(c)
-    console.log(b)
-    console.log(a)
-} if ((a < b && a > c) && (b > a && b > c) && (c < a && c < b) ) {
-    console.log(c)
-    console.log(a)
-    console.log(b)
-} if ((a < b && a < c) && (b > a && b > c) && (c > a && c < b) ) {
-    console.log(a)
-    console.log(c)
-    console.log(b)
-} if ((a > b && a > c) && (b < a && b < c) && (c < a && c > b) ) {
-    console.log(b)
-    console.log(c)
-    console.log(a)
-} if ((a > b && a < c) && (b < a && b < c) && (c > a && c > b) ) {
-    console.log(b)
-    console.log(a)
-    console.log(c)
-} if ((a > b && a > c) && (b < a && b > c) && (c < a && c < b) ) {
-    console.log(c)
-    console.log(b)
-    console.log(a)
+if ((n1 < n2 && n1 < n3) && (n2 > n1 && n2 < n3) && (n3 > n1 && n3 > n2) ) {
+    console.log(n1)
+    console.log(n2)
+    console.log(n3)
+} if ((n1 > n2 && n1 < n3) && (n2 < n1 && n2 > n3) && (n3 < n1 && n3 < n2) ) {
+    console.log(n3)
+    console.log(n2)
+    console.log(n1)
+} if ((n1 < n2 && n1 > n3) && (n2 > n1 && n2 > n3) && (n3 < n1 && n3 < n2) ) {
+    console.log(n3)
+    console.log(n1)
+    console.log(n2)
+} if ((n1 < n2 && n1 < n3) && (n2 > n1 && n2 > n3) && (n3 > n1 && n3 < n2) ) {
+    console.log(n1)
+    console.log(n3)
+    console.log(n2)
+} if ((n1 > n2 && n1 > n3) && (n2 < n1 && n2 < n3) && (n3 < n1 && n3 > n2) ) {
+    console.log(n2)
+    console.log(n3)
+    console.log(n1)
+} if ((n1 > n2 && n1 < n3) && (n2 < n1 && n2 < n3) && (n3 > n1 && n3 > n2) ) {
+    console.log(n2)
+    console.log(n1)
+    console.log(n3)
+} if ((n1 > n2 && n1 > n3) && (n2 < n1 && n2 > n3) && (n3 < n1 && n3 < n2) ) {
+    console.log(n3)
+    console.log(n2)
+    console.log(n1)
 };

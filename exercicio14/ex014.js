@@ -12,13 +12,13 @@ prompt = require('prompt-sync') ();
 
 console.log(`Digite seu deck de cartas: `);
 var carta1 = prompt('Carta 1 => ');
-carta1 = Number(carta1)
+carta1 = Number(carta1);
 //carta1 = parseInt(carta1);
 var carta2 = prompt('Carta 2 => ');
 carta2 = Number(carta2)
-//carta2 = parseInt(carta2) 
+//carta2 = parseInt(carta2);
 var carta3 = prompt('Carta 3 => ');
-carta3 = Number(carta3)
+carta3 = Number(carta3);
 //carta3 = parseInt(carta3);
 
 let soma = carta1 + carta2 + carta3;
