@@ -6,8 +6,8 @@ Fazer a tabela  dos operadores && (AND), || (OR), ! (NOT), ^ (XOR)
 
   true  && true;  // => True
   true  && false; // => False
-  false && false; // => False
-  false && true;  // => False
+  false && true; // => False
+  false && false;  // => False
 
   true  || true;  // => True
   true  || false; // => True

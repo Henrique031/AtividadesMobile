@@ -6,7 +6,7 @@
 // Idade: 35
 // Altura: 1,72
 
-let   dadosAluno = {
+let dadosAluno = {
     nome: 'Henrique',
     ra: '30225',
     idade: '21',

@@ -16,3 +16,5 @@ if (temperatura >= 25) {;
 } else {;
     console.log(`${temperatura + '°'} Está frio!`);  
 };
+
+let res = temperatura >= 25 ?"Está calor!":"Está frio!"

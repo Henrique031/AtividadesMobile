@@ -6,7 +6,7 @@
 
 // console.log(skeep)
 
-let   skeep = {
+let skeep = {
     energia: '2,3KV',
     velocidade: '200 Km/h',
     temperatura: '31°C',

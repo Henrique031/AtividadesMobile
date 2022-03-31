@@ -15,7 +15,8 @@
                         "modelo":"Corsa",
                         "ano":"2016",
                         "cor":"Prata",
-                        "dono":"HenriqueS"};
+                        "dono":"HenriqueS"
+      };
                         console.log(dadosCarro);
 
 /*f*/const ouroMatematica ={"Numero de ouro da matemática valor": 1.61803};
