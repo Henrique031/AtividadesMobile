@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "name": "exercicio23",
+  "version": "1.0.0",
+  "main": "index1.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index1.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
