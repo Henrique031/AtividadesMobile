@@ -17,7 +17,7 @@ var maiorNum = 0;
 var menorNum = 0;
 
 for (var contador = 0; contador < 10; contador++) {
-  numeros[contador] = parseInt(prompt('Informe os números: '));
+  numeros[contador] = parseInt(prompt(`Informe o ${contador+1}º número: `));
   soma += numeros[contador];
   media = soma / 10;
 };
@@ -38,19 +38,20 @@ console.log('Maior número: ' + maiorNum);
 console.log('Menor número: ' + menorNum);
 
 /* Saída
-Informe os números: 10
-Informe os números: 20
-Informe os números: 30
-Informe os números: 40
-Informe os números: 21
-Informe os números: 63
-Informe os números: 9
-Informe os números: 1
-Informe os números: 100
-Informe os números: 89
+Informe 10 números...
 
-A soma é: 383
-A média é: 38.3
-Maior número: 100
-Menor número: 1
-*/
+Informe o 1º número: 10
+Informe o 2º número: 20
+Informe o 3º número: 100
+Informe o 4º número: 34
+Informe o 5º número: 64
+Informe o 6º número: 477
+Informe o 7º número: 34
+Informe o 8º número: 367
+Informe o 9º número: 23
+Informe o 10º número: 2
+
+A soma é: 1131
+A média é: 113.1
+Maior número: 477
+Menor número: 2 */
