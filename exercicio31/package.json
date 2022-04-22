@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "name": "exercicio31",
+  "version": "1.0.0",
+  "main": "ex31.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ex31.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

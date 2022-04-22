@@ -1,11 +1,11 @@
 {
-  "name": "exercicio20",
+  "name": "exercicio29",
   "version": "1.0.0",
   "description": "",
-  "main": "index1.js",
+  "main": "ex29.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ex20.js"
+    "start": "node ex29.js"
   },
   "author": "",
   "license": "ISC"

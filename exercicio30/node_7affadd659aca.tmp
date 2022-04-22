@@ -1,0 +1,28 @@
+/* 
+Faça um programa que peça 10 números ao usuário, guarde-os em uma lista, e depois mostre as seguintes informações: 
+* A soma de todos os números
+* A média aritmética
+* O maior número
+* O menor número
+*/
+
+prompt = require('prompt-sync') ()
+
+console.log('Programa que vai pedir 10 números para o usuário, e mostre: soma, média, maior número e menor número')
+console.log('')
+console.log('Informe 10 números: ')
+console.log('')
+
+let num = 1
+var lista = []
+while(num <= 10){
+    
+   lista = prompt('Digite os número aqui: ')
+    num ++
+}
+
+console.log(lista)
+/* console.log('A soma de todos os números é: '+ lista.soma)
+console.log('A média aritimérica é: '+lista.média)
+console.log('O maior número é: '+lista.maiorNum)
+console.log('O menor número é: '+lista.menorNum) */
