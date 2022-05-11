@@ -1,61 +1,57 @@
 /* 
-Crie um projeto usando o EXPO CLI chamado resumo,
- o qual deve mostrar no dispositvo um resumo de 5 linhas
-do conteúdo que foi mostrado na aula do dia 26/04 em um TextInput
- */
+Crie um projeto usando o EXPO CLI chamado resumo, 
+o qual deve mostrar no dispositvo um resumo de 5 
+linhas do conteúdo que foi mostrado na aula do dia 26/04 em um TextInput
+*/
 
-import React from "react";
-import {Text, View, SafeAreaView, Button, Alert, StyleSheet, TextInput} from 'react-native';
+/* Oque eu aprendi na aula do dia 26/04 foi que a gente pode ordenar os dados em ordem crescente, dentro de um array, usando apenas um laço de repetição for. O professor nos mostrou um site, chamado snack.expo.dev onde podemos desenvolver nossa aplicação, apenas usando um navegador web. E por último, ele nos mostrou algumas tags do react native e como importar algumas bibliotecas */
 
-import Resumo from "./componentes";
 
-/* export default function botao() {
+import React from 'react';
+import { StyleSheet, Text, View, TextInput, SafeAreaView } from 'react-native';
+// import { useState } from 'react';
+
+export default function resumo () {
+  const [nome, setNome] = React.useState(null)
   return(
-  <SafeAreaView>
-    <View>
-      <Button title="Aperte em mim" onPress={ () => Alert.alert('Botão pressionado')}/>
-    </View>
-  </SafeAreaView>
-  )
-}
- */
-export default function app (){
-  const [text, onChangeText] =React.useState('Oque eu aprendi terça dia 26/04 foi que ')
-  return(
-  <SafeAreaView>
-    <View>
-      <Text/>
-      <Text/>
-      {/* <Resumo/> */}
-      <Text style={style.texto}>Exercicio 33</Text>
-      <TextInput style={style.input} value={text} onChangeText={onChangeText}/>
-      <Button style={style.botao} title="Aperte em mim" onPress={ () => Alert.alert('Você clicou em mim')}/>
+    <SafeAreaView style={styles.view}>
+    <View >
+      <Text> </Text>
+      <Text> </Text>
+      <Text style={styles.txt}>Resumo</Text>
+      <Text> </Text>
+       <TextInput style={styles.txtInput} value={nome}  placeholder="  Digite aqui oque você aprendeu dia 26/04" onChangeText={setNome}/>
     </View>
 
-  </SafeAreaView>
+    <View>
+       <Text> </Text> 
+       <Text> </Text>
+       <Text style={styles.txtnome} > Resumo: {nome}</Text>
+    </View>
+    </SafeAreaView>
   )
 }
-/* const style = StyleSheet.create({
-  botao: {
+
+const styles = StyleSheet.create({
+  view:{
+    flex: 1,
+    backgroundColor: "gray",
   },
-}); */
-
-const style = StyleSheet.create({
-  texto:{
-    fontSize: 20,
+   txt:{
+    fontSize: 22,
     textAlign: 'center',
   },
-  input: {
-    height: 40,
-    margin: 12,
-    borderWidth: 1,
-    padding: 10,
+  txtInput:{
+    borderColor: "black",
+    backgroundColor: "white",
+   borderWidth: 2, // largura da borda
+   borderRadius: 10,
+   lineHeight: 20, //altura da linha
+   height: 50,  // altura
+
   },
-  botao: {
-    borderRadius: 10,
-    maxWidth: 1,
-    width: 1,
-    lineHeight: 1,
-    alignItems: 'center'
+  txtnome: {
+    fontSize: 19,
   }
-})
+}) 
+

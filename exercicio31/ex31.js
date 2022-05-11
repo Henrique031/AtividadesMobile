@@ -5,12 +5,38 @@ Ver dica de algoritmo no link em anexo */
 
 const prompt = require('prompt-sync') ();
 
-console.log('Digite 10 números a baixo');
+var lista = [];
+var temp;
+var j;
+var i;
+var pergunta;
+
+for (pergunta = 1; pergunta <= 5; pergunta++) {
+    lista[pergunta-1] = parseInt(prompt(`Digite o ${pergunta}º número: `))
+}
+
+for( j = 1; j < 6; j++){
+
+    for( i = 0; i < 5; i++){
+        if(lista[i] > lista[i+1]) {
+            temp = lista[i+1]
+            lista[i+1] = lista[i]
+            lista[i] = temp
+        }
+    }
+}
+
+console.log(lista)
+
+
+
+
+/* console.log('Digite 5 números a baixo');
 console.log('');
 function numeros(){
 
-    let num = [];
-    for(let contador = 1; contador <= 5; contador++) {
+    var num = [];
+    for(var contador = 1; contador <= 5; contador++) {
         num[contador-1] = Number(prompt(`Digite o ${contador}º número: `));
     };
     num.sort((a , b) => {
@@ -22,7 +48,9 @@ function numeros(){
     console.log(num);
 };
 
-numeros();
+numeros(); */
+
+
 
 /* Saída
 
