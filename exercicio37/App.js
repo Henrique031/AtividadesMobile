@@ -5,16 +5,18 @@ import { StyleSheet, Text, View } from 'react-native';
   return (
     <View style={styles.container}>
 
-      <View style={{flexDirection: 'column'}}>
-      <Text style={styles.txt}></Text>
-      <Text style={styles.txt}></Text>
-      <Text style={styles.txt}></Text>
-    </View>
-
-    <View>
-      <Text style={styles.txt}></Text>
-    </View>
-
+      <View style={{flexDirection: 'row'}}>
+        <Text style={{backgroundColor: 'green', width: 130, height: 130}}></Text>
+        <Text style={{backgroundColor: 'white', width: 130, height: 130}}></Text>
+        <Text style={{backgroundColor: 'red', width: 130, height: 130}}></Text>  
+      </View>
+      <View style={{flexDirection: 'row'}}>
+        <Text style={{backgroundColor: 'green', width: 130, height: 130}}></Text>
+        <Text style={{backgroundColor: 'white', width: 130, height: 130}}></Text>
+        <Text style={{backgroundColor: 'red', width: 130, height: 130}}></Text>  
+      </View>
+      
+ 
     </View>
   );
 }
@@ -25,13 +27,8 @@ export default App
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'red',
+    backgroundColor: 'black',
     alignItems: 'center',
-    justifyContent: 'center',
-  },
-  txt: {
-    backgroundColor: 'green',
-    width: 50,
-    height: 50,
+    justifyContent: 'center'
   }
 });
