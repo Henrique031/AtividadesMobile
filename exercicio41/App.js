@@ -12,8 +12,8 @@ export default function pets() {
   return (
     <SafeAreaView style={{flex: 1, marginTop: 40}}>
 
-      <Tela1 />
-      {/* <Tela2 /> */}
+      {/* <Tela1 /> */}
+      <Tela2 />
 
     </SafeAreaView>
   )

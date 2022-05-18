@@ -10,7 +10,7 @@ export default props => {
         )
       }
   return (
-    <View>
+    <View style={{flex: 1}}>
       <ImageBackground source={imgPets} style={{flex: 10}} >
         <View style={{alignItems: 'center', }} >
         <Text style={{color: 'orange', fontSize: 40, backgroundColor: 'rgba(155,155,155, 0.3)', paddingHorizontal: 157}} >PETS</Text>
