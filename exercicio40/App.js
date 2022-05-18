@@ -3,6 +3,7 @@ import { View, Text, StyleSheet, ImageBackground, Image } from 'react-native';
 import Task from './assets/tasklist.png'
 import Check from './assets/Check.png'
 import Circulo from './assets/Circle.png'
+import Olho from './assets/olho.png'
 
 
 
@@ -19,6 +20,9 @@ export default function Master() {
   <View style={{flex: 1, backgroundColor: 'white',}}>
 
       <ImageBackground source={Task} style={styles.imgBackground}>
+        <View style={{alignItems: 'flex-end', marginEnd: 20, marginBottom: 15 }}>
+        <Image source={Olho} style={{width: 30, height: 20,}} />
+        </View>
         <Text style={styles.txt}>Hoje</Text>
         <Text style={styles.txt1} >Terça, 17 de maio </Text>
       </ImageBackground>
@@ -30,8 +34,8 @@ export default function Master() {
           <Image source={Check} style={{ width: 30, height: 30,}} />
 
         <View style={{marginStart: 30,}}>
-          <Text style={{textDecorationLine: 'line-through',}}>Assistir aulas na faculdade </Text>
-          <Text>qua, 20 de maio</Text>
+          <Text style={{textDecorationLine: 'line-through',}}>Assistir aula do professor de Linguagem Mobile </Text>
+          <Text>qua, 18 de maio</Text>
         </View>
 
       </View>
@@ -41,8 +45,8 @@ export default function Master() {
           <Image source={Circulo} style={{ width: 30, height: 30,}} />
 
         <View style={{marginStart: 30,}}>
-          <Text>Assistir aulas na faculdade </Text>
-          <Text>qua, 20 de maio</Text>
+          <Text>Colocar o lixo pra fora </Text>
+          <Text>sex, 20 de maio</Text>
         </View>
 
       </View>
@@ -52,8 +56,8 @@ export default function Master() {
           <Image source={Check} style={{ width: 30, height: 30,}} />
 
         <View style={{marginStart: 30,}}>
-          <Text style={{textDecorationLine: 'line-through',}}>Assistir aulas na faculdade </Text>
-          <Text>qua, 20 de maio</Text>
+          <Text style={{textDecorationLine: 'line-through',}}>Tocar bateria na igreja </Text>
+          <Text>dom, 15 de maio</Text>
         </View>
 
       </View>
@@ -63,8 +67,8 @@ export default function Master() {
           <Image source={Check} style={{ width: 30, height: 30,}} />
 
         <View style={{marginStart: 30,}}>
-          <Text style={{textDecorationLine: 'line-through',}}>Assistir aulas na faculdade </Text>
-          <Text>qua, 20 de maio</Text>
+          <Text style={{textDecorationLine: 'line-through',}}>Ensaio do ministério de música </Text>
+          <Text>sex, 13 de maio</Text>
         </View>
 
       </View>
@@ -74,8 +78,8 @@ export default function Master() {
           <Image source={Check} style={{ width: 30, height: 30,}} />
 
         <View style={{marginStart: 30,}}>
-          <Text style={{textDecorationLine: 'line-through',}}>Assistir aulas na faculdade </Text>
-          <Text>qua, 20 de maio</Text>
+          <Text style={{textDecorationLine: 'line-through',}}>Jogar futebol </Text>
+          <Text>dom, 8 de maio</Text>
         </View>
 
       </View>
@@ -92,7 +96,7 @@ const styles = StyleSheet.create({
   imgBackground:{
     flex: 3,
     justifyContent: 'center',
-    alignItems: 'center',
+    // alignItems: 'center',
     
   },
   txt: {
@@ -105,6 +109,7 @@ const styles = StyleSheet.create({
     // backgroundColor:
   },
   txt1: {
+    textAlign: 'center',
     backgroundColor: 'rgba(200, 200, 200, 0.4)',
     paddingVertical: 7,
     paddingHorizontal: 95,
