@@ -2,13 +2,15 @@ import React from 'react';
 import { Text, View, ImageBackground } from 'react-native';
 import imgPets from '../../assets/Pets.png'
 
+
+
 function Separador (){
   return(
     <View style={{borderColor: 'lightgray', borderBottomWidth: 6}} />
     )
   }
-  export default function Tela2() {
-    
+  export default (props) => {
+
   return (
     <View style={{flex: 1}}>
       
@@ -21,10 +23,10 @@ function Separador (){
       </ImageBackground>
         <Separador />
 
-        <View style={{flex: 1}}>
+        <View style={{flex: 2}}>
           <View style={{marginTop: 20, marginStart: 20, marginBottom: 20, alignItems: 'flex-start', justifyContent: 'center'}}>
             <Text style={{fontWeight: 'bold', fontSize: 20}}>
-              Mike
+              {props.nome}
             </Text>
             <Text style={{fontWeight: '100', fontSize: 17}}>
               Vira lata-11,4 Kilos-25/01/2014
