@@ -1,7 +1,9 @@
-/*a)*/var nomeEmpresa = "Moblile Star";
+/*a) Crie uma variável e coloque o nome de uma empresa.*/
+      var nomeEmpresa = "Moblile Star";
       console.log(nomeEmpresa);
 
-/*b)*/let totalDeSalariosPagosNoMes = 20;
+/*b) Crie uma variável e guarde um valor numérico.*/
+      let totalDeSalariosPagosNoMes = 20;
 
 /*c)*/const QuantDiasFaturamento = 30;
 
